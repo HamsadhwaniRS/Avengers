@@ -1,0 +1,159 @@
+<html>
+<head>
+<style>
+body{
+background-color:Black;
+}
+h1{
+font-family:Garamond;
+font-weight:bold;
+color:#fff;
+font-size:70px;
+}
+#wrapper { 
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+#home1 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+    margin-right: 5%;
+} 
+
+#home2 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+}
+
+.clear{
+    clear: both;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #home1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #home2 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
+
+.card{
+width:300px;
+height:400px;
+display: inline-block;
+border-radius:10px;
+padding:15px 25px;
+box-sizing:border-box;
+cursor:pointer;
+margin:10px 15px;
+background-position: center;
+background-size:cover;
+transition: transform 0.5s;
+}
+
+h5{
+font-size: 30 px;
+color:#fff;
+text-shadow: 0 0 5px #999;
+}
+
+.card {
+  float: center;
+  width: 42%;
+  padding: 5 px;
+}
+
+.card::after {
+  content: " ";
+  clear: both;
+  display:table;
+}
+.card1{
+background-image:url(Ironman.jpg);
+}
+
+.card2{
+background-image:url(Thor.jpg);
+}
+
+.card3{
+background-image:url(Captainamerica.jpg);
+}
+
+.card4{
+background-image:url(Hawkeye.jpg);
+}
+
+.card5{
+background-image:url(Blackwidow.jpg);
+}
+
+.card6{
+background-image:url(Hulk.jpg);
+}
+
+.card:hover{
+transform: translate(-10px); 
+}
+
+</style>
+</head>
+<body>
+<center><h1>A V E N G E R S</h1></center>
+
+<center><video id="openingT" width="1000" width="500" controls="true" autoplay="autoplay">
+<source src="Avengers.mp4" type="video/mp4">
+</video></center>
+nbsp;
+
+<div id="wrapper"> 
+    <video id="home1" width="600" height="300" poster="images/video.jpg" controls="controls" preload="none"> 
+        <source type="video/mp4" src="Avengers2.mp4" /> 
+    </video>
+    <video id="home2" width="600" height="300" poster="images/video.jpg" controls="controls" preload="none"> 
+        <source type="video/mp4" src="Avengers 1.mp4"/> 
+    </video>
+    <div class="clear"></div> 
+</div>
+
+<center><div class="card">
+<div class="card card1">
+<h5>IRON MAN</h5>
+</div>
+
+<div class="card card2">
+<h5>THOR</h5>
+</div>
+
+<div class="card card3">
+<h5>CAPTAIN AMERICA</h5>
+</div>
+
+<div class="card card4">
+<h5>HAWKEYE</h5>
+</div>
+
+<div class="card card5">
+<h5>BLACK WIDOW</h5>
+</div>
+
+
+<div class="card card6">
+<h5>HULK</h5>
+</div>
+
+</div></center>
+</body>
+</html>
