@@ -127,7 +127,7 @@ cursor:pointer;
 <body>
 <script>
 function myFunction(){
-location.replace("indexx.html")
+location.replace("index.html")
 }
 </script>
 <center><h1>A V E N G E R S</h1></center>
